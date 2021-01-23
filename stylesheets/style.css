@@ -1,12 +1,13 @@
 #navbar {
   background-color: rgb(255, 166, 77);
-  max-height: 150px;
+  height: 150px;
   width: 100%;
   float:left;
 }
 
 #logo {
   float: left;
+  margin: 15px;
 }
 
 ul {
