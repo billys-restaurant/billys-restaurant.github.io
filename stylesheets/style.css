@@ -2,6 +2,7 @@
   background-color: rgb(255, 166, 77);
   height: 150px;
   width: 100%;
+  padding: 0px;
   float:left;
 }
 
@@ -10,7 +11,22 @@
   margin: 15px;
 }
 
-ul {
+#navbtns {
   list-style-type: none;
   float: left;
+  margin:0px;
+}
+
+#navbtns li {
+  list-style-type: inherit;
+  float: inherit;
+
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 25px;
+  margin-bottom:25px;
+  border-width: 5px;
+  border-color: rgb(217, 217, 217);
+  padding: 45px;
+  height: 10px;
 }
