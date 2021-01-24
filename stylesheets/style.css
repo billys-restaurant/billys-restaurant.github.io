@@ -1,4 +1,4 @@
-#navbar {
+/*#navbar {
   background-color: rgb(255, 166, 77);
   height: 150px;
   width: 100%;
@@ -29,4 +29,38 @@
   border-color: rgb(217, 217, 217);
   padding: 45px;
   height: 10px;
+}
+*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(255, 166, 77);
+  height: 70px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 0px 16px;
+  line-height: 70px;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+}
+
+li a:not(#logo):hover{
+  background-color: #111;
+  color: white;
+}
+
+#logo {
+  display: inline;
+  height: 200px;
 }
