@@ -4,6 +4,7 @@
   width: 100%;
   padding: 0px;
   float:left;
+  margin: 0px;
 }
 
 #logo {
@@ -25,8 +26,31 @@
   margin-right: 0px;
   margin-top: 25px;
   margin-bottom:25px;
-  border-width: 5px;
-  border-color: rgb(217, 217, 217);
-  padding: 45px;
-  height: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  height: 70px;
+}
+
+#navbtns a {
+  border-right: 1px solid rgb(217, 217, 217);
+  padding: 25px;
+  height:70px;
+  line-height: 70px;
+  text-align: center;
+}
+
+#home_btn {
+  border-left: 1px solid rgb(217, 217, 217);
+}
+
+
+#navbtns a:link, #navbtns a:visited, #navbtns a:active {
+  text-decoration: none;
+  color: black;
+  cursor: auto;
+}
+
+#navbtns a:hover {
+  background-color: rgb(217, 217, 217);
+  cursor: pointer;
 }
