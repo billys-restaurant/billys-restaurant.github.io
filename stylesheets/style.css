@@ -1,61 +1,3 @@
-/*#navbar {
-  background-color: rgb(255, 166, 77);
-  height: 150px;
-  width: 100%;
-  padding: 0px;
-  float:left;
-  margin: 0px;
-}
-
-#logo {
-  float: left;
-  margin: 15px;
-}
-
-#navbtns {
-  list-style-type: none;
-  float: left;
-  margin:0px;
-}
-
-#navbtns li {
-  list-style-type: inherit;
-  float: inherit;
-
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-top: 25px;
-  margin-bottom:25px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  height: 70px;
-}
-
-#navbtns a {
-  border-right: 1px solid rgb(217, 217, 217);
-  padding: 25px;
-  height:70px;
-  line-height: 70px;
-  text-align: center;
-}
-
-#home_btn {
-  border-left: 1px solid rgb(217, 217, 217);
-}
-
-
-#navbtns a:link, #navbtns a:visited, #navbtns a:active {
-  text-decoration: none;
-  color: black;
-  cursor: auto;
-}
-
-#navbtns a:hover {
-  background-color: rgb(217, 217, 217);
-  cursor: pointer;
-}
-*/
-
 #navbtns {
   list-style-type: none;
   margin: 0;
@@ -89,10 +31,17 @@
   display: inline;
   margin-right: 50px;
   padding-left: 0px;
-  /*height: 200px;*/
 }
 
 #logo img {
   width: 110px;
   height: 110px;
+}
+
+body {
+  margin: 0px;
+}
+
+#content-body {
+  margin: 8px;
 }
