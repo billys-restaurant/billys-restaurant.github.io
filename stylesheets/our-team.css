@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+}
+
+.member-card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 768px;
+    height: 256px;
+    margin: auto;
+    padding: 64px;
+}
+
+.member-card img{
+    border-radius: 50%;
+    float: left;
+    margin-right: 64px;
+    height: 256px;
+    width: 256px;
+}
+
+.member-card-container {
+    float: left;
+}
