@@ -10,10 +10,18 @@ h1 {
     padding: 64px;
 }
 
-.member-card img{
+.member-card-left img{
     border-radius: 50%;
     float: left;
     margin-right: 64px;
+    height: 256px;
+    width: 256px;
+}
+
+.member-card-right img{
+    border-radius: 50%;
+    float: right;
+    margin-left: 64px;
     height: 256px;
     width: 256px;
 }
