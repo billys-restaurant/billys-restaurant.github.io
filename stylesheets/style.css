@@ -15,7 +15,7 @@
   display: block;
   color: black;
   text-align: center;
-  padding: 0px 16px;
+  padding: 0 16px;
   line-height: 110px;
   text-decoration: none;
   font-family: 'Lato', sans-serif;
@@ -30,7 +30,7 @@
 #logo {
   display: inline;
   margin-right: 50px;
-  padding-left: 0px;
+  padding-left: 0;
 }
 
 #logo img {
@@ -39,7 +39,7 @@
 }
 
 body {
-  margin: 0px;
+  margin: 0;
 }
 
 #content-body {

@@ -1,0 +1,9 @@
+#content-body {
+    margin: 0;
+}
+
+embed {
+    width: 100%;
+    height: calc(100vh - 110px);
+    margin:0;
+}
