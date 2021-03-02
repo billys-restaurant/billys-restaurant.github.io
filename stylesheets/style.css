@@ -45,3 +45,21 @@ body {
 #content-body {
   margin: 8px;
 }
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
