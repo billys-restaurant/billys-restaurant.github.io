@@ -40,10 +40,13 @@
 
 body {
   margin: 0;
+  position: relative;
+  min-height: 100vh;
 }
 
 #content-body {
-  margin: 8px;
+  margin: 8px 8px 0;
+  padding-bottom: 180px;
 }
 
 h1 {
@@ -62,4 +65,42 @@ h3 {
 p {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
+}
+
+#footer {
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(255, 166, 77);
+  height: 90px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+#footer-left {
+  float:left;
+}
+
+#footer-left p {
+  float:right;
+  text-align: center;
+  line-height: 90px;
+  margin: 0 0 0 15px;
+}
+
+#footer-right {
+  float:right;
+}
+
+#social-media-buttons {
+  float: right;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  height: 90px;
+}
+
+#social-media-buttons li {
+  float: right;
+  padding: 15px;
 }
