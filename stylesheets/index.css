@@ -1,0 +1,37 @@
+#footnote {
+    font-size: xx-small;
+}
+
+p sup {
+    font-size: xx-small;
+}
+
+#content-title{
+    text-align:center;
+    margin-left: 50px;
+    margin-right:50px;
+}
+
+#title-content{
+    font-size:large;
+}
+
+#actual-title{
+    text-decoration: underline;
+}
+
+#content-story{
+    text-align:center;
+    margin-left:50px;
+    margin-right:50px;
+}
+
+#story-title{
+    text-decoration: underline;
+    margin-bottom:10px;
+    margin-top:20px;
+}
+
+#story-text{
+    margin-top: 10px;
+}
