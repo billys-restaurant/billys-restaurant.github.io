@@ -8,3 +8,27 @@ embed {
     height: calc(100vh - 200px);
     margin:0;
 }
+
+#pdf-button {
+    margin: 20px;
+    border-radius: 10px;
+    width: 260px;
+    background-color: #DFDFDF;
+    height: 100px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#pdf-button:hover {
+    background-color: #AAAAAA;
+}
+
+#pdf-button img {
+    float: left;
+    margin: 10px 20px 10px 10px;
+}
+
+#pdf-download-container {
+    float: right;
+    margin: 0 20px 0 0;
+}
