@@ -21,7 +21,14 @@
       </div>
     </header>
     <div id="content-body">
-      <embed src="assets/Billy's%20Menu.pdf">
+      <embed id="pdf-embed" src="assets/Billy's%20Menu.pdf">
+      <div id="pdf-button" onclick="window.open('assets/Billy\'s%20Menu.pdf')">
+        <img src="./assets/icons/PDF-icon.svg" alt="PDF Icon" height="80">
+        <div id="pdf-download-container">
+          <h3>Billy's Menu.pdf</h3>
+          <p>392 KB</p>
+        </div>
+      </div>
     </div>
     <footer>
       <div id="footer">
@@ -30,12 +37,13 @@
         </div>
         <div id="footer-right">
           <ul id="social-media-buttons">
-            <li><a href="http://www.discord.gg/unbpnmabR3"><img src="./assets/social_icons/discord-logo.svg" alt="Discord Icon" width="60" height="60"></a></li>
-            <li><a href="http://www.reddit.com/r/BillysRestaurant"><img src="./assets/social_icons/reddit-logo.png" alt="Reddit Icon" width="60" height="60"></a></li>
-            <li><a href="http://www.twitter.com/billys_inc"><img src="./assets/social_icons/twitter-logo.svg" alt="Twitter Icon" width="60" height="60"></a></li>
+            <li><a href="http://www.discord.gg/unbpnmabR3"><img src="assets/icons/discord-logo.svg" alt="Discord Icon" width="60" height="60"></a></li>
+            <li><a href="http://www.reddit.com/r/BillysRestaurant"><img src="assets/icons/reddit-logo.png" alt="Reddit Icon" width="60" height="60"></a></li>
+            <li><a href="http://www.twitter.com/billys_inc"><img src="assets/icons/twitter-logo.svg" alt="Twitter Icon" width="60" height="60"></a></li>
           </ul>
         </div>
       </div>
     </footer>
+    <script src="./scripts/menu.js"></script>
   </body>
 </html>
